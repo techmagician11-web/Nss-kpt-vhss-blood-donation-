@@ -1,0 +1,47 @@
+/* Optional CSS on top of Bootstrap */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.img-top {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.card-title {
+  color: #d63384;
+}
+
+button[type="submit"] {
+  background-color: #dc3545;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #c82333;
+}
+
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.modal-content p {
+  font-size: 16px;
+  color: #333;
+}
+
+.modal-content .btn {
+  min-width: 100px;
+}
